@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
 import { ChartContainer } from './ChartContainer';
 import { useTimeSeries, useShockEvents } from '@/hooks/useData';
@@ -6,7 +6,7 @@ import { useAppStore } from '@/app/store';
 import { formatDate, formatNumber } from '@/lib/utils';
 
 export function LiquidityStressChart() {
-  const { startDate, endDate, geography, showEvents, setSelectedEvent } = useAppStore();
+  const { startDate, endDate, geography, showEvents } = useAppStore();
   const { data, loading } = useTimeSeries('liquidity_stress_index', { start_date: startDate, end_date: endDate, geography });
   const { events } = useShockEvents({ start_date: startDate, end_date: endDate });
 

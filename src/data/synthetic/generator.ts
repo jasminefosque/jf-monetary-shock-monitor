@@ -3,7 +3,7 @@
  * Generates realistic time series data with monetary regime characteristics
  */
 
-import type { TimeSeries, ShockEvent, PolicyRegime } from '@/models/schema';
+import type { TimeSeries, ShockEvent } from '@/models/schema';
 
 /**
  * Generate dates for time series

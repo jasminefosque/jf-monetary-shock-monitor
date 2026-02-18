@@ -58,7 +58,7 @@ export function downloadJSON(data: string, filename: string) {
 /**
  * Export chart as PNG
  */
-export function exportChartAsPNG(chartElement: HTMLElement, filename: string) {
+export function exportChartAsPNG(_chartElement: HTMLElement, filename: string) {
   // Note: This requires html2canvas library for production use
   // For now, this is a placeholder showing the pattern
   console.log(`Export chart "${filename}" - implementation requires html2canvas`);

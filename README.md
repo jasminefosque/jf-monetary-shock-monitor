@@ -1,6 +1,6 @@
 # Monetary Shock Monitor
 
-![Dashboard Screenshot](./public/screenshot-placeholder.svg)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/cba54ddb-aa16-4060-a66d-a31616be971e)
 
 ## Overview
 
@@ -214,7 +214,14 @@ Jasmine Fosque
 
 ## Screenshots
 
-![Dashboard Overview](./public/screenshot-placeholder.svg)
+![Dashboard Overview](https://github.com/user-attachments/assets/cba54ddb-aa16-4060-a66d-a31616be971e)
+
+The dashboard features:
+- Real-time KPI monitoring strip
+- Interactive time series charts with event overlays
+- Yield curve analysis with inversion detection
+- Risk sentiment gauges
+- Professional, institutional design
 
 ## Acknowledgments
 

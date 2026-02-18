@@ -27,7 +27,7 @@ export class OpenDataProvider implements DataProvider {
     }
   }
 
-  async getSeries(metricId: string, params?: QueryParams): Promise<TimeSeries> {
+  async getSeries(metricId: string, _params?: QueryParams): Promise<TimeSeries> {
     // TODO: Implement API calls to open data sources
     // Example implementation for FRED API:
     // 
@@ -72,7 +72,7 @@ export class OpenDataProvider implements DataProvider {
     );
   }
 
-  async getShockEvents(params?: QueryParams): Promise<ShockEvent[]> {
+  async getShockEvents(_params?: QueryParams): Promise<ShockEvent[]> {
     // TODO: Implement event detection or manual curation
     // Options:
     // 1. Manual curated list based on historical research

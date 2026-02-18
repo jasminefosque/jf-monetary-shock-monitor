@@ -13,7 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/jasminefosque/jf-monetary-shock-monitor.git"
   },
-  "keywords": ["monetary", "dashboard", "portfolio", "visualization", "typescript", "react"],
+  "keywords": [
+    "monetary",
+    "dashboard",
+    "portfolio",
+    "visualization",
+    "typescript",
+    "react"
+  ],
   "author": "Jasmine Fosque",
   "license": "MIT",
   "bugs": {
@@ -21,6 +28,7 @@
   },
   "homepage": "https://github.com/jasminefosque/jf-monetary-shock-monitor#readme",
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
     "@types/node": "^25.2.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
